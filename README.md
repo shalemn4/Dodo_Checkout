@@ -1,4 +1,4 @@
-# Dodo Checkout — Tiny Embeddable Checkout
+# Dodo Checkout - Tiny Embeddable Checkout
 
 A lightweight, embeddable checkout integration demonstrating cross-origin UI isolation, strict postMessage communication, and deterministic payment simulation.
 
