@@ -1,0 +1,21 @@
+{
+  "name": "dodo-checkout-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tiny Embeddable Checkout for Dodo Payments",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"DEMO,CHECKOUT\" -c \"cyan,magenta\" \"npm run dev --workspace=apps/demo\" \"npm run dev --workspace=apps/checkout\"",
+    "dev:demo": "npm run dev --workspace=apps/demo",
+    "dev:checkout": "npm run dev --workspace=apps/checkout",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.7.3"
+  }
+}
