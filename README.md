@@ -1,6 +1,6 @@
 # Dodo Checkout - Tiny Embeddable Checkout
 
-A lightweight, embeddable checkout integration demonstrating cross-origin UI isolation, strict postMessage communication, and deterministic payment simulation.
+Acme is a developer-tools storefront demonstrating a lightweight, embeddable Dodo Checkout integration with cross-origin UI isolation, strict postMessage communication, and deterministic payment simulation.
 
 ---
 
