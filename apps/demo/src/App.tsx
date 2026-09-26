@@ -21,6 +21,7 @@ export const App: React.FC = () => {
 
     DodoCheckout.open({
       productId: 'starter-kit-pro',
+      checkoutUrl: import.meta.env.VITE_CHECKOUT_URL,
       onSuccess: ({ sessionId }) => {
         addLog('success', `onSuccess: Payment successful (Session: ${sessionId})`);
       },
